@@ -5,7 +5,7 @@ Analyze Brazilian E-Commerce Public Dataset from [Kaggle](https://www.kaggle.com
 
 ## Main Content
 ### Requirements
-To create this data analysis and dashboard, it requires several [Python libraries].(https://github.com/hamf99/ecommerce-public-dataset/blob/main/requirements.txt)
+To create this data analysis and dashboard, it requires several [Python libraries](https://github.com/hamf99/ecommerce-public-dataset/blob/main/requirements.txt).
 
 ### Setup environment
 ```
