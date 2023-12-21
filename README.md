@@ -25,6 +25,11 @@ streamlit run dashboard_ecommerce.py
 ```
 
 ## Dashboard Streamlit App
-The dashboard can access in link below. Thanks For Your Attention :thumbsup:
+The dashboard can access in link below. Thanks For Your Attention :thumbsup: 
 
 [E-Commerce Olist Dashboard - Streamlit App](https://ecommerce-olist-dashboard.streamlit.app/)
+
+Visit:
+- [My GitHub](https://github.com/hamf99)
+- [My Kaggle](https://www.kaggle.com/hamf99)
+- [My LinkedIn](https://www.linkedin.com/in/ilham-fadilah)
