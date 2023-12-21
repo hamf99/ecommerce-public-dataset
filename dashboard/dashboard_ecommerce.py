@@ -145,7 +145,7 @@ main_df = main_df[(main_df["order_date"] >= start_date) &
                 (main_df["order_date"] <= end_date)]
 
 # Make the title dashboard
-st.markdown('<h1 style="text-align: center;">E-Commerce Olist Analysis Dashboard</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align: center;">E-Commerce Olist Dashboard</h1>', unsafe_allow_html=True)
 
 ################################### ORDERS ###################################
 def orders_analysis():
