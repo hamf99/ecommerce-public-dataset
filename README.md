@@ -7,7 +7,7 @@ Analyze Brazilian E-Commerce Public Dataset from [Kaggle](https://www.kaggle.com
 ### Requirements
 To create this data analysis and dashboard, it requires several [Python libraries](https://github.com/hamf99/ecommerce-public-dataset/blob/main/requirements.txt).
 
-### Setup environment
+### Setup Environment
 ```
 pip install numpy pandas matplotlib seaborn streamlit babel
 pip install streamlit-option-menu
@@ -19,12 +19,12 @@ pip install streamlit-option-menu
 - [Cleaned Dataset in CSV File](https://github.com/hamf99/ecommerce-public-dataset/blob/main/dashboard/main_data_for_dashboard.csv)
 - [Dashboard in Python File](https://github.com/hamf99/ecommerce-public-dataset/blob/main/dashboard/dashboard_ecommerce.py)
   
-### Run steamlit app
+### Run Streamlit App
 ```
 streamlit run dashboard_ecommerce.py
 ```
 
-## Dashboard Streamlit Apps
+## Dashboard Streamlit App
 The dashboard can access in link below. Thanks For Your Attention :thumbsup:
 
 [E-Commerce Olist Dashboard - Streamlit App](https://ecommerce-olist-dashboard.streamlit.app/)
