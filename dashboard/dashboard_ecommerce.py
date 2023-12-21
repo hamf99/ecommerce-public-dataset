@@ -145,7 +145,7 @@ main_df = main_df[(main_df["order_date"] >= start_date) &
                 (main_df["order_date"] <= end_date)]
 
 # Make the title dashboard
-st.markdown('<h1 style="text-align: center;">Ecommerce Olist Analysis</h1>', unsafe_allow_html=True)
+st.markdown('<h1 style="text-align: center;">E-Commerce Olist Analysis Dashboard</h1>', unsafe_allow_html=True)
 
 ################################### ORDERS ###################################
 def orders_analysis():
@@ -164,6 +164,7 @@ def orders_analysis():
         total_order_value = format_currency(daily_orders_df.sum_order_value.sum(), "R$", locale='pt_BR') 
         st.metric("Total Order Value", value=total_order_value)
     
+    #Set max value
     xmax = daily_orders_df.order_date[np.argmax(daily_orders_df.count_order)]
     ymax = daily_orders_df.count_order.max()
 
@@ -186,6 +187,7 @@ def orders_analysis():
                 )
     st.pyplot(fig)
 
+    #Set max value
     x_max = daily_orders_df.order_date[np.argmax(daily_orders_df.sum_order_value)]
     y_max = round(daily_orders_df.sum_order_value.max(), 2)
     
